@@ -229,9 +229,28 @@ button {
      margin-top: 25px;
     -webkit-font-smoothing: antialiased;
 }
-.footer li {
+/*.footer li {
     display: inline-block;
     margin-left: 25px;
+    text-align: center;
+}*/
+.footer .flex-container {
+    padding: 0;
+    margin-top: 16px;
+    list-style: none;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: center;
+}
+ .footer .flex-item {
+    padding: 5px;
+    width: 5%;
 }
 .footer h4 {
     font-family: 'Roboto', sans-serif;
@@ -239,6 +258,7 @@ button {
     font-size: 16px;
     margin-top: 25px;
 }
+
 
 
 
