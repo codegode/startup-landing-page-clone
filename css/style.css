@@ -183,8 +183,8 @@ button {
 }
 .cases h2 {
     font-family: 'Roboto', sans-serif;
-    color: #838994;
-    font-size: 16px;
+    color: black;
+    font-size: 64px;
     margin-top: 25px;
 }
  
@@ -201,23 +201,45 @@ button {
 
     -webkit-flex-flow: row wrap;
     justify-content: center;
- }
+}
  .cases .flex-item {
     padding: 5px;
     width: 20%;
-
-
- }
-
-/*.cases .devices {
-    width: 33.3333333%
+}
+/*Footer
+*/
+.footer {
+    background-color: #fff;
+    margin-top: 2px;
+}
+.footer .content {
+    margin-top: 7.875rem;
+    padding: none;
+    color: #1d1e21;
+    text-align: center;
+}
+.footer p {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 16px;
+    margin-top: 25px;
+}
+.footer .social {
+     float: right;
+     margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+.footer li {
     display: inline-block;
-     styles to assit with dubugging
-    border: 1px solid black;
-    box-sizing: border-box;
-    height: 4em;
-    padding: 5px;
-}*/
+    margin-left: 25px;
+}
+.footer h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #888;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
 
 
 
