@@ -57,7 +57,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color:#838994;
-    letter-spacing: 0.03em
+    letter-spacing: 0.03em;
     -webkit-font-smoothing: antialiased;
 }
 div {
@@ -211,7 +211,7 @@ button {
     padding: 5px;
     width: 20%;
 }
-/*Footer
+/*Footer-----------------
 */
 .social {
     background-color: #fff;
@@ -241,10 +241,10 @@ button {
     color: #55acee;
 }
 .social .facebook {
-    color: #4c66a4
+    color: #4c66a4;
 }
 .social .instagram {
-    color: #3f729b
+    color: #3f729b;
 }
 .social .copy {
     font-size: 0.9rem;
