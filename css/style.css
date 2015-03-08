@@ -220,11 +220,11 @@ button {
     text-align: center;
 }
 .social hr {
-    margin: 1.313rem 0;
-    border-top: 1px solid #eaebec;
     border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
 }
-.social .icon > li {
+.social .icons > li {
      border-radius: 1.25rem;
      width: 2.5rem;
      height: 2.5rem;
@@ -234,7 +234,7 @@ button {
      padding: 0.625rem 0;
      text-align: center;
 }
-.social .icon > li:hover {
+.social .icons > li:hover {
     cursor: pointer;
 }
 .social .twitter {
